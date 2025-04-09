@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    fr.ag2rlamondiale.osp.contrat.config.\
+    SqlTestContainersSpringContextCustomizerFactory
