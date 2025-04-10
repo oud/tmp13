@@ -50,6 +50,20 @@ public class CacheConfiguration {
             createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.User.class.getName());
             createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.Authority.class.getName());
             createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.User.class.getName() + ".authorities");
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.DemandeXRM.class.getName());
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.DemandeXRM.class.getName() + ".pmEtablissements");
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.MiseEnGestion.class.getName());
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEntreprise.class.getName());
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEntreprise.class.getName() + ".adresses");
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEntreprise.class.getName() + ".emails");
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEntreprise.class.getName() + ".telephones");
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.Adresse.class.getName());
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.Telephone.class.getName());
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.Email.class.getName());
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEtablissement.class.getName());
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEtablissement.class.getName() + ".adresses");
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEtablissement.class.getName() + ".emails");
+            createCache(cm, fr.ag2rlamondiale.osp.contrat.domain.PmEtablissement.class.getName() + ".telephones");
             // jhipster-needle-ehcache-add-entry
         };
     }
